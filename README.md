@@ -57,7 +57,7 @@ Para executar o código, siga estas etapas:
 5. Execute o arquivo Python digitando o seguinte comando:
 
    ```
-   python gerar_qrcode.py
+   python QrCode.py
    ```
 
 6. Após a execução do código, o arquivo "qrcode.png" será criado no diretório atual e o QR Code correspondente será exibido na tela.
