@@ -4,7 +4,7 @@ A seguir, está a documentação para o código Python que utiliza a biblioteca 
 
 ## Introdução
 
-O código fornecido é uma implementação simples que usa a biblioteca `qrcode` para gerar um QR Code com a URL "https://www.meuip.com.br/". O QR Code gerado é então salvo em um arquivo chamado "qrcode.png" e exibido na tela.
+O código fornecido é uma implementação simples que usa a biblioteca `qrcode` para gerar um QR Code com a URL "https://www.instagram.com/devgabrielvieira/". O QR Code gerado é então salvo em um arquivo chamado "qrcode.png" e exibido na tela.
 
 ## Requisitos
 
@@ -21,7 +21,7 @@ Aqui está o código completo que gera e exibe um QR Code:
 import qrcode
 
 # Gerar o QR Code
-meu_qrcode = qrcode.make("https://www.meuip.com.br/")
+meu_qrcode = qrcode.make("https://www.instagram.com/devgabrielvieira/")
 
 # Salvar o QR Code em um arquivo
 meu_qrcode.save("qrcode.png")
@@ -34,7 +34,7 @@ meu_qrcode.show()
 
 1. O código começa importando a biblioteca `qrcode`, que é responsável por gerar QR Codes.
 
-2. Em seguida, a função `qrcode.make()` é usada para criar um objeto `QRCode` a partir da URL fornecida como argumento. No exemplo, a URL é "https://www.meuip.com.br/".
+2. Em seguida, a função `qrcode.make()` é usada para criar um objeto `QRCode` a partir da URL fornecida como argumento. No exemplo, a URL é "https://www.instagram.com/devgabrielvieira/".
 
 3. O objeto `QRCode` retornado é armazenado na variável `meu_qrcode`.
 
